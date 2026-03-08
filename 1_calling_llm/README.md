@@ -227,3 +227,11 @@ pip install ollama langchain-ollama
 # Multimodal
 pip install pillow requests
 ```
+
+## Google Colab
+
+For users without sufficient local hardware, all notebook examples can be run in Google Colab, which provides free access to GPUs and TPUs:
+
+- Open any `.ipynb` file from this guide in Colab by uploading it or using GitHub integration
+- Colab supports all the dependencies listed above
+- Note: API keys should be managed securely (use Colab secrets for production)
